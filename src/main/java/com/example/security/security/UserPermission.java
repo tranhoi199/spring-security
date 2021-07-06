@@ -1,6 +1,9 @@
 package com.example.security.security;
 
 import lombok.Getter;
+import org.springframework.security.core.GrantedAuthority;
+
+import java.util.Set;
 
 @Getter
 public enum UserPermission {
@@ -19,4 +22,6 @@ public enum UserPermission {
     public String getPermission() {
         return permission;
     }
+
+
 }
